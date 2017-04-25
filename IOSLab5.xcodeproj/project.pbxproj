@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40D4B0C81EAF7EB40028541E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D4B0C71EAF7EB40028541E /* AppDelegate.swift */; };
+		40D4B0CA1EAF7EB40028541E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D4B0C91EAF7EB40028541E /* ViewController.swift */; };
+		40D4B0CD1EAF7EB40028541E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40D4B0CB1EAF7EB40028541E /* Main.storyboard */; };
+		40D4B0CF1EAF7EB40028541E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D4B0CE1EAF7EB40028541E /* Assets.xcassets */; };
+		40D4B0D21EAF7EB40028541E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40D4B0D01EAF7EB40028541E /* LaunchScreen.storyboard */; };
+		8935FD032DE14B61FABF6C39 /* Pods_IOSLab5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B8D2C324A1CA05A3316D225 /* Pods_IOSLab5.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B8D2C324A1CA05A3316D225 /* Pods_IOSLab5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOSLab5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40D4B0C41EAF7EB40028541E /* IOSLab5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSLab5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40D4B0C71EAF7EB40028541E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40D4B0C91EAF7EB40028541E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40D4B0CC1EAF7EB40028541E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40D4B0CE1EAF7EB40028541E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40D4B0D11EAF7EB40028541E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40D4B0D31EAF7EB40028541E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EEAEAEF190BDF64DC25F82E /* Pods-IOSLab5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSLab5.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOSLab5/Pods-IOSLab5.debug.xcconfig"; sourceTree = "<group>"; };
+		67073686E2C1A9A4EFF18CBD /* Pods-IOSLab5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSLab5.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOSLab5/Pods-IOSLab5.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40D4B0C11EAF7EB40028541E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8935FD032DE14B61FABF6C39 /* Pods_IOSLab5.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40D4B0BB1EAF7EB40028541E = {
+			isa = PBXGroup;
+			children = (
+				40D4B0C61EAF7EB40028541E /* IOSLab5 */,
+				40D4B0C51EAF7EB40028541E /* Products */,
+				F43D833391F6A8C702CDE30C /* Pods */,
+				D44C1BFCA15C848C5EF649B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		40D4B0C51EAF7EB40028541E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40D4B0C41EAF7EB40028541E /* IOSLab5.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40D4B0C61EAF7EB40028541E /* IOSLab5 */ = {
+			isa = PBXGroup;
+			children = (
+				40D4B0C71EAF7EB40028541E /* AppDelegate.swift */,
+				40D4B0C91EAF7EB40028541E /* ViewController.swift */,
+				40D4B0CB1EAF7EB40028541E /* Main.storyboard */,
+				40D4B0CE1EAF7EB40028541E /* Assets.xcassets */,
+				40D4B0D01EAF7EB40028541E /* LaunchScreen.storyboard */,
+				40D4B0D31EAF7EB40028541E /* Info.plist */,
+			);
+			path = IOSLab5;
+			sourceTree = "<group>";
+		};
+		D44C1BFCA15C848C5EF649B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D2C324A1CA05A3316D225 /* Pods_IOSLab5.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F43D833391F6A8C702CDE30C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EEAEAEF190BDF64DC25F82E /* Pods-IOSLab5.debug.xcconfig */,
+				67073686E2C1A9A4EFF18CBD /* Pods-IOSLab5.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40D4B0C31EAF7EB40028541E /* IOSLab5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40D4B0D61EAF7EB40028541E /* Build configuration list for PBXNativeTarget "IOSLab5" */;
+			buildPhases = (
+				32941DBDACA723EF139C24E0 /* [CP] Check Pods Manifest.lock */,
+				40D4B0C01EAF7EB40028541E /* Sources */,
+				40D4B0C11EAF7EB40028541E /* Frameworks */,
+				40D4B0C21EAF7EB40028541E /* Resources */,
+				07E60546D43BBD0634C0144D /* [CP] Embed Pods Frameworks */,
+				2168E249A677A3806E288488 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOSLab5;
+			productName = IOSLab5;
+			productReference = 40D4B0C41EAF7EB40028541E /* IOSLab5.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40D4B0BC1EAF7EB40028541E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Thitiwat;
+				TargetAttributes = {
+					40D4B0C31EAF7EB40028541E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = LNN3K54DN9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 40D4B0BF1EAF7EB40028541E /* Build configuration list for PBXProject "IOSLab5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40D4B0BB1EAF7EB40028541E;
+			productRefGroup = 40D4B0C51EAF7EB40028541E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40D4B0C31EAF7EB40028541E /* IOSLab5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40D4B0C21EAF7EB40028541E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D4B0D21EAF7EB40028541E /* LaunchScreen.storyboard in Resources */,
+				40D4B0CF1EAF7EB40028541E /* Assets.xcassets in Resources */,
+				40D4B0CD1EAF7EB40028541E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07E60546D43BBD0634C0144D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOSLab5/Pods-IOSLab5-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2168E249A677A3806E288488 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOSLab5/Pods-IOSLab5-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32941DBDACA723EF139C24E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40D4B0C01EAF7EB40028541E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D4B0CA1EAF7EB40028541E /* ViewController.swift in Sources */,
+				40D4B0C81EAF7EB40028541E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40D4B0CB1EAF7EB40028541E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40D4B0CC1EAF7EB40028541E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40D4B0D01EAF7EB40028541E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40D4B0D11EAF7EB40028541E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40D4B0D41EAF7EB40028541E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40D4B0D51EAF7EB40028541E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40D4B0D71EAF7EB40028541E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EEAEAEF190BDF64DC25F82E /* Pods-IOSLab5.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LNN3K54DN9;
+				INFOPLIST_FILE = IOSLab5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Thitiwat.IOSLab5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		40D4B0D81EAF7EB40028541E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67073686E2C1A9A4EFF18CBD /* Pods-IOSLab5.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LNN3K54DN9;
+				INFOPLIST_FILE = IOSLab5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Thitiwat.IOSLab5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40D4B0BF1EAF7EB40028541E /* Build configuration list for PBXProject "IOSLab5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40D4B0D41EAF7EB40028541E /* Debug */,
+				40D4B0D51EAF7EB40028541E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40D4B0D61EAF7EB40028541E /* Build configuration list for PBXNativeTarget "IOSLab5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40D4B0D71EAF7EB40028541E /* Debug */,
+				40D4B0D81EAF7EB40028541E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40D4B0BC1EAF7EB40028541E /* Project object */;
+}

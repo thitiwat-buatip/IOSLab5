@@ -1,0 +1,6 @@
+framework module Pods_IOSLab5 {
+  umbrella header "Pods-IOSLab5-umbrella.h"
+
+  export *
+  module * { export * }
+}
