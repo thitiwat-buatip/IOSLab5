@@ -8,5 +8,13 @@ target 'IOSLab5' do
   # Pods for IOSLab5
 
 pod ‘Google/SignIn’
+pod 'Alamofire'
+pod 'AlamofireObjectMapper'
+pod 'FBSDKCoreKit'
+pod 'FBSDKLoginKit'
+pod 'Firebase/Auth'
+pod 'GoogleSignIn'
+pod 'Firebase/Core'
+pod 'Firebase/Database'
 
 end
